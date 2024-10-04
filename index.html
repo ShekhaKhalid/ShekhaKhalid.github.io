@@ -8,17 +8,17 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
-<script src = blippar-webar-sdk.....
+<script src = "sdk/blippar-webar-sdk-v2.0.4/webar-sdk/webar-sdk-v2.0.4.min.js?license-key=67f6cc96-57fc-4f54-b6db-df17f9162554"
 webar-mode="surface-tracking"
 static-camera = "true"
 auto-start="false"
 auto-init="false"
 enable-photo-ui="true"
-render-scene-on-desktop= "false"
-show-qr-card-on-desktop= "false"
+render-scene-on-desktop="false"
+show-qr-card-on-desktop="false"
 enable-tracking-on-desktop= "false"
 enable-mirroring-on-desktop= "false"
-hide-reset-button= "false"
+hide-reset-button="false"
 auto-marker-detection ="true"
 show-guide-animation-url=""
 rendering-engine="unity"
@@ -101,14 +101,14 @@ show-guide-view="true"></script>
 
 var Yrotvalue = undefined;
 var UNITYINSTANCE = undefined;
-const cameraObjectName = "";
-const stageObjectName = "";
+const cameraObjectName = "webarCamera";
+const stageObjectName = "webarStage";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/Builds.loader.js";
+      const loaderUrl = buildUrl + "/WebAR-AR-Learn.loader.js";
       const config = {
-        dataUrl: buildUrl + "/Builds.data.unityweb",
-        frameworkUrl: buildUrl + "/Builds.framework.js.unityweb",
-        codeUrl: buildUrl + "/Builds.wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-AR-Learn.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-AR-Learn.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-AR-Learn.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "AR-Learn",
